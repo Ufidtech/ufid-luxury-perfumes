@@ -29,4 +29,4 @@ Open the project folder in your code editor (e.g., VS Code).
 Open index.html in your browser or run it using a live server extension.
 
 Live Deployment
-**[Live Link]** (https://ufid-luxury-perfumes.vercel.app/)
+**Live Demo** (https://ufid-luxury-perfumes.vercel.app/)
