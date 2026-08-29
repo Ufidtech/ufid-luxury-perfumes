@@ -1,12 +1,12 @@
 :root {
-    --primary-emerald: #023020;
-    --accent-gold: #D4AF37;
-    --bg-cream: #FAFAFA;
-    --text-dark: #333333;
+  --primary-emerald: #023020;
+  --accent-gold: #d4af37;
+  --bg-cream: #fafafa;
+  --text-dark: #333333;
 
-    /* Typography */
-    --font-family: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+  /* Typography */
+  --font-family: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
 }
 
 * {
@@ -15,16 +15,40 @@
   box-sizing: border-box;
 }
 
-
 body {
-    font-family: var(--font-body);
-    color: var(--text-dark);
-    background-color: var(--bg-cream);
-    line-height: 1.6;
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  background-color: var(--bg-cream);
+  line-height: 1.6;
 }
 
-h1, h2, h3 {
-    font-family: var(--font-family);
-    color: var(--primary-emerald);
-    margin-bottom: 1rem;
+h1,
+h2,
+h3 {
+  font-family: var(--font-family);
+  color: var(--primary-emerald);
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  color: var(--bg-cream);
+  background-color: var(--primary-emerald);
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-gold);
 }
