@@ -41,6 +41,18 @@ section {
   align-items: center;
 }
 
+nav {
+  background-color: var(--primary-emerald);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 button {
   border: none;
   color: var(--bg-cream);
@@ -68,6 +80,7 @@ button:hover {
 
   nav ul {
     display: flex;
+    flex-direction: row;
     list-style: none;
     gap: 2rem;
   }
