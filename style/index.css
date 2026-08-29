@@ -59,4 +59,26 @@ button:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: var(--text-dark);
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: var(--primary-emerald);
+  }
 }
