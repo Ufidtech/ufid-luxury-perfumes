@@ -52,3 +52,11 @@ button {
 button:hover {
   background-color: var(--accent-gold);
 }
+
+@media (min-width: 768px) {
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
