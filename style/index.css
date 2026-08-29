@@ -1,0 +1,30 @@
+:root {
+    --primary-emerald: #023020;
+    --accent-gold: #D4AF37;
+    --bg-cream: #FAFAFA;
+    --text-dark: #333333;
+
+    /* Typography */
+    --font-family: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    background-color: var(--bg-cream);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family);
+    color: var(--primary-emerald);
+    margin-bottom: 1rem;
+}
